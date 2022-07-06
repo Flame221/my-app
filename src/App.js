@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import ScoreComponent from './ScoreComponent.js';
 import MyComponentOne from './MyComponent';
+import MouseListener from './MouseListenerComponent';
 
 function App() {
   return (
@@ -10,8 +11,10 @@ function App() {
       <hr />  
       <ScoreComponent />
       <hr />
-      <MyComponentOne />
+      <MouseListener />
       <hr />
+      <MyComponentOne />
+
     </div>
     
   )
